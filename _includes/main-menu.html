@@ -1,8 +1,10 @@
 <div style="margin-top:15px;"></div>
 <div class="thumbnail">
-	{% for post in site.posts %}
-		{% if post.published %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-		{% endif %}
-	{% endfor %}
+	<ul class="nav nav-pills nav-stacked">
+		{% for post in site.posts %}
+			{% if post.published %}
+				<li role="presentation"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>
