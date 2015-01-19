@@ -2,10 +2,15 @@
 .orbitist-logo {
 width: 35px;
 border-radius: 8px;
-margin-top: -7px;
+margin-top: 8px;
+margin-bottom: 8px;
 opacity: 0.6;
 }
 
 .orbitist-logo:hover {
 opacity: 1;
+}
+
+.navbar>.container .navbar-brand {
+margin-left: 0px;
 }
