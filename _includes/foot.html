@@ -1,0 +1,30 @@
+<!-- Bootstrap JS -->
+<script src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+<script src="{{ site.baseurl }}/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+<script>
+  $(document).ready(function(){
+	$('.fitvid').fitVids();
+  });
+</script>
+	
+<!-- Smooth scroll between anchors -->
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
+</script>

@@ -1,0 +1,19 @@
+permalink: :title 
+
+highlighter: pygments
+markdown: kramdown
+
+title : Orbitist
+tagline: Documentation
+author : 
+  name : Orbitist Support
+  email : support@orbitist.com
+  github : Orbitist
+  twitter : TheOrbitist
+  web : http://www.orbitist.com
+
+production_url : orbitist.com/documentation
+
+baseurl : http://orbitist.com/documentation
+  
+timezone : America/New_York

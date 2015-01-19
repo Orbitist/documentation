@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
+    	<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<a class="navbar-brand" href="http://orbitist.com">
+        		<img class="orbitist-logo" alt="Brand" src="{{ site.baseurl }}/images/logo_blue_button_100.png">
+      		</a>
+    	</div>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://app.orbitist.com">Sign in</a></li>
+		  	</ul>
+    	</div>
+  	</div>
+</nav>
+
+<div style="margin-top:50px;"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			{% include main-menu.html %}
+		</div><!-- col-md-3 -->
+		<div class="col-md-9">
+			<h1>{{ page.title }} <small>{{ page.description }}</small></h1>
+			{{ content }}
+		</div><!-- col-md-9 -->
+	</div><!-- row -->
+<div><!-- container -->
