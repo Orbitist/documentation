@@ -14,3 +14,9 @@ opacity: 1;
 .navbar>.container .navbar-brand {
 margin-left: 0px;
 }
+
+/* Navbar Buttons */
+.navbar-nav>li>a.nav-button {
+padding-top: 3px;
+padding-bottom: 0px;
+}
