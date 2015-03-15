@@ -1,8 +1,8 @@
 ---
 layout: page
 published: true
-title: What is Orbitist?
-description: How to tell stories with beautiful maps
+title: Getting started
+description: How to tell stories on beautiful maps with Orbitist
 ---
 <hr>
 <div class="row">
