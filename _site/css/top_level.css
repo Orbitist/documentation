@@ -22,3 +22,8 @@ background-color: rgba(241,194,137,1);
 border-color: rgba(241,194,137,0.8);
 color: #333;
 }
+
+/** Wistia containers **/
+.wistia-container {
+max-width: 100%;
+}
