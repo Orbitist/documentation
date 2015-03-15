@@ -1,13 +1,17 @@
 ---
 layout: page
-published: false
+published: true
 title: Set up your account
 description: How to set up an Orbitist account.
 ---
-1.) Go to app.orbitist.com and click "Sign up".
+Step 1: Tell great stories
+- Collect photos, videos, text and all your resources.
 
-2.) Create a username and password, enter your email address, pick a plan level, and enter your payment information. Click "Submit".
+Step 2: Map great stories
+- Upload your media to points.
 
-3.) A verification email will be sent to you. Follow the instructions included in that email to verify your account.
+Step 3: Generate beautiful maps
+- Filter by tags, pick a base map, embed, and share your maps!
 
-4.) Congrats, you're now the proud owner of an Orbitist account! Now look to the sky and be humbled by its vastness.	
+Step 4: Extend your maps
+- Build native mobile apps, incorporate data visualizations or custom base tiles, make an audio map, an interactive kiosk, a textbook, a lesson... Your maps are limited only by your imagination!
