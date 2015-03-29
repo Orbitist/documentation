@@ -42,7 +42,7 @@ description: Tell stories on beautiful maps with Orbitist
 	<div class="col-md-10">
 		<h3>Step 4: Extend your maps</h3>
 		<p class="lead">Build native mobile apps, incorporate data visualizations or custom base tiles, make an audio map, an interactive kiosk, a textbook, a lesson... Your maps are limited only by your imagination!</p>
-		<a href="{{ site.baseurl }}/your-first-map/"><button class="btn btn-default btn-orbitist">Learn to create your first map!</button></a>
+		<a href="{{ site.baseurl }}/your-first-map/"><button class="btn btn-default btn-orbitist">GET STARTED: Learn to create your first map!</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
 <hr>
