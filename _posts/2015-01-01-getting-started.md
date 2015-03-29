@@ -1,8 +1,8 @@
 ---
 layout: page
 published: true
-title: Getting started
-description: How to tell stories on beautiful maps with Orbitist
+title: Orbitist is easy
+description: Tell stories on beautiful maps with Orbitist
 ---
 <hr>
 <div class="row">
@@ -22,7 +22,6 @@ description: How to tell stories on beautiful maps with Orbitist
 	<div class="col-md-10">
 		<h3>Step 2: Map great stories</h3>
 		<p class="lead">Create a map and upload your media to points.</p>
-		<a href="{{ site.baseurl }}/create-points/"><button class="btn btn-default btn-orbitist">Learn how to create points</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
 <hr>
@@ -33,8 +32,6 @@ description: How to tell stories on beautiful maps with Orbitist
 	<div class="col-md-10">
 		<h3>Step 3: Share your maps</h3>
 		<p class="lead">Customize, embed, and share your maps!</p>
-		<a href="{{ site.baseurl }}/generate-maps/"><button class="btn btn-default btn-orbitist">Learn how to generate and share maps</button></a>
-		<a href="{{ site.baseurl }}/generate-maps/"><button class="btn btn-default btn-orbitist">Learn how to embed your maps</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
 <hr>
@@ -45,7 +42,7 @@ description: How to tell stories on beautiful maps with Orbitist
 	<div class="col-md-10">
 		<h3>Step 4: Extend your maps</h3>
 		<p class="lead">Build native mobile apps, incorporate data visualizations or custom base tiles, make an audio map, an interactive kiosk, a textbook, a lesson... Your maps are limited only by your imagination!</p>
-		<a href="{{ site.baseurl }}/web-mapp/"><button class="btn btn-default btn-orbitist">Learn how to extend Orbitist</button></a>
+		<a href="{{ site.baseurl }}/your-first-mao/"><button class="btn btn-default btn-orbitist">Learn to create your first map!</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
 <hr>
