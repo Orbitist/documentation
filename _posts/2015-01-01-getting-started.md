@@ -21,7 +21,7 @@ description: How to tell stories on beautiful maps with Orbitist
 	</div><!-- col-md-2 -->
 	<div class="col-md-10">
 		<h3>Step 2: Map great stories</h3>
-		<p class="lead">Upload your media to points.</p>
+		<p class="lead">Create a map and upload your media to points.</p>
 		<a href="{{ site.baseurl }}/create-points/"><button class="btn btn-default btn-orbitist">Learn how to create points</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
@@ -31,8 +31,8 @@ description: How to tell stories on beautiful maps with Orbitist
 		<i style="font-size:100px;" class="fa fa-refresh"></i>
 	</div><!-- col-md-2 -->
 	<div class="col-md-10">
-		<h3>Step 3: Generate beautiful maps</h3>
-		<p class="lead">Filter by tags, pick a base map, embed, and share your maps!</p>
+		<h3>Step 3: Share your maps</h3>
+		<p class="lead">Customize, embed, and share your maps!</p>
 		<a href="{{ site.baseurl }}/generate-maps/"><button class="btn btn-default btn-orbitist">Learn how to generate and share maps</button></a>
 		<a href="{{ site.baseurl }}/generate-maps/"><button class="btn btn-default btn-orbitist">Learn how to embed your maps</button></a>
 	</div><!-- col-md-10 -->
