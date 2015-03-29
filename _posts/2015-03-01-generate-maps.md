@@ -1,6 +1,6 @@
 ---
 layout: page
-published: true
+published: false
 title: Generate Maps
 description: Learn how to generate and share beautiful maps with your points.
 ---

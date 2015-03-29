@@ -1,6 +1,6 @@
 ---
 layout: page
-published: true
+published: false
 title: Embed maps
 description: How to embed an Orbitist map into a website.
 ---

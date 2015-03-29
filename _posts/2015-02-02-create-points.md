@@ -1,6 +1,6 @@
 ---
 layout: page
-published: true
+published: false
 title: Create points
 description: Learn how to create points.
 ---
