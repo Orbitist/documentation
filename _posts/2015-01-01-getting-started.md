@@ -22,6 +22,7 @@ description: Tell stories on beautiful maps with Orbitist
 	<div class="col-md-10">
 		<h3>Step 2: Map great stories</h3>
 		<p class="lead">Create a map and upload your media to points.</p>
+		<a href="{{ site.baseurl }}/2-minute-example/"><button class="btn btn-default btn-orbitist">Watch a map made in 3 minutes!</button></a>
 	</div><!-- col-md-10 -->
 </div><!-- row -->
 <hr>
