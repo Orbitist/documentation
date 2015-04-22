@@ -4,8 +4,8 @@
 			LEARN THE BASICS <span class="caret"></span>
 		</a>
 		<ul class="dropdown-menu" role="menu">
+			<li><a href="{{ site.baseurl }}/">Introduction</a></li>
 		{% for post in site.posts reversed %}
-				<li><a href="{{ site.baseurl }}">Introduction</a></li>
 			{% if post.published %}
 				<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
