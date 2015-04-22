@@ -31,7 +31,8 @@
 </head>
 
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="docs-container">
+<nav class="navbar navbar-default navbar-fixed-top">
   	<div class="container">
     	<div class="navbar-header">
     		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,47 +42,64 @@
         		<span class="icon-bar"></span>
       		</button>
       		<a class="logo pull-left" href="http://orbitist.com"><img class="orbitist-logo" alt="Brand" src="/images/logo_blue_button_100.png"></a>
-      		<a class="navbar-brand" href="http://orbitist.com">Orbitist</a>
+      		<a class="navbar-brand" href="http://orbitist.com">ORBITIST</a>
     	</div>
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     		<ul class="nav navbar-nav">
-    		    <li><a href="http://orbitist.com/blog">Blog</a></li>
-				<li><a href="http://orbitist.com/documentation">Help</a></li>
+    			<li><a href="http://maps.orbitist.com">Examples</a></li>
+    			<li><a href="http://orbitist.com/blog">Blog</a></li>
+    			<li><a href="http://orbitist.com/documentation">Help</a></li>
+    			<li><a href="http://orbitist.com/contact">Contact</a></li>    			
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://app.orbitist.com/"><span class="fa fa-tachometer"></span> Dashboard</a></li>
+				<li><a href="http://app.orbitist.com/user"><span class="fa fa-tachometer"></span> Sign in</a></li>
 		  	</ul>
     	</div>
   	</div>
 </nav>
 
-<div style="margin-top:58px;"></div>
+<div class="background-image"><img src="http://orbitist.s3.amazonaws.com/_toplevel/images/backgrounds/cover.jpg"></div>
 
 <div class="container">
+	<div style="margin-top:58px;"></div>
+	<ul class="nav nav-pills">
+	<li role="presentation" class="dropdown">
+		<a class="dropdown-toggle btn btn-default" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+			LEARN THE BASICS <span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu" role="menu">
+		
+			
+				<li><a href="/introduction">Introduction</a></li>
+			
+		
+			
+				<li><a href="/3-minute-example">3 minute overview</a></li>
+			
+		
+			
+				<li><a href="/your-first-map">Getting Started</a></li>
+			
+		
+		</ul>
+	</li>
+</ul>
+
 	<div class="row">
-		<div class="col-md-3">
-			<div style="margin-top:15px;"></div>
-<div class="well">
-	<ul class="nav nav-pills nav-stacked">
-		
-			
-				<li role="presentation"><a href="/getting-started">Orbitist is easy</a></li>
-			
-		
-			
-				<li role="presentation"><a href="/2-minute-example">Very fast 2 minute overview!!</a></li>
-			
-		
-			
-				<li role="presentation"><a href="/your-first-map">Getting Started</a></li>
-			
-		
-	</ul>
-</div>
-		</div><!-- col-md-3 -->
-		<div class="col-md-9">
+		<div class="col-md-8 col-md-offset-2">
 			<h1>Getting Started <small>How to get started making maps with Orbitist</small></h1>
-			<h2 id="create-your-first-map">Create your first map</h2>
+			<div id="wistia_9d1sn66lr1" class="wistia_embed" style="width:640px;height:400px;">&nbsp;</div>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
+
+<script>
+wistiaEmbed = Wistia.embed("9d1sn66lr1", {
+  videoFoam: true
+});
+</script>
+
+<hr />
+
+<h2 id="create-your-first-map">Create your first map</h2>
 
 <p>Log into your Orbitist account time and click ‘Make my first map!’</p>
 
@@ -121,12 +139,14 @@
 
 <p>You can learn about extending Orbitist and download boilerplate projects under your ‘Settings’ menu. Select ‘Settings’ –&gt; ‘Extend Orbitist’.</p>
 
-			<a href="mailto:support@orbitist.com"><button class="btn btn-default btn-orbitist">Have questions? Email: support@orbitist.com</button></a>
+			<h3>Have questions? Email: support@orbitist.com</h3>
 		</div><!-- col-md-9 -->
 	</div><!-- row -->
 <div><!-- container -->
 
 <div style="margin-top:58px;"></div>
+
+</div><!-- docs-container -->
 	
 		<!-- Bootstrap JS -->
 <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>

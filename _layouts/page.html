@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="docs-container">
 <nav class="navbar navbar-default navbar-fixed-top">
   	<div class="container">
     	<div class="navbar-header">
@@ -11,33 +12,36 @@ layout: default
         		<span class="icon-bar"></span>
       		</button>
       		<a class="logo pull-left" href="http://orbitist.com"><img class="orbitist-logo" alt="Brand" src="{{ site.baseurl }}/images/logo_blue_button_100.png"></a>
-      		<a class="navbar-brand" href="http://orbitist.com">Orbitist</a>
+      		<a class="navbar-brand" href="http://orbitist.com">ORBITIST</a>
     	</div>
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     		<ul class="nav navbar-nav">
-    		    <li><a href="http://orbitist.com/blog">Blog</a></li>
-				<li><a href="http://orbitist.com/documentation">Help</a></li>
+    			<li><a href="http://maps.orbitist.com">Examples</a></li>
+    			<li><a href="http://orbitist.com/blog">Blog</a></li>
+    			<li><a href="http://orbitist.com/documentation">Help</a></li>
+    			<li><a href="http://orbitist.com/contact">Contact</a></li>    			
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://app.orbitist.com/"><span class="fa fa-tachometer"></span> Dashboard</a></li>
+				<li><a href="http://app.orbitist.com/user"><span class="fa fa-tachometer"></span> Sign in</a></li>
 		  	</ul>
     	</div>
   	</div>
 </nav>
 
-<div style="margin-top:58px;"></div>
+<div class="background-image"><img src="http://orbitist.s3.amazonaws.com/_toplevel/images/backgrounds/cover.jpg"></div>
 
 <div class="container">
+	<div style="margin-top:58px;"></div>
+	{% include main-menu.html %}
 	<div class="row">
-		<div class="col-md-3">
-			{% include main-menu.html %}
-		</div><!-- col-md-3 -->
-		<div class="col-md-9">
+		<div class="col-md-8 col-md-offset-2">
 			<h1>{{ page.title }} <small>{{ page.description }}</small></h1>
 			{{ content }}
-			<a href="mailto:support@orbitist.com"><button class="btn btn-default btn-orbitist">Have questions? Email: support@orbitist.com</button></a>
+			<h3>Have questions? Email: support@orbitist.com</h3>
 		</div><!-- col-md-9 -->
 	</div><!-- row -->
 <div><!-- container -->
 
 <div style="margin-top:58px;"></div>
+
+</div><!-- docs-container -->

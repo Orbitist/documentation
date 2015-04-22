@@ -4,6 +4,15 @@ published: true
 title: Getting Started
 description: How to get started making maps with Orbitist
 ---
+<div id="wistia_9d1sn66lr1" class="wistia_embed" style="width:640px;height:400px;">&nbsp;</div>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
+<script>
+wistiaEmbed = Wistia.embed("9d1sn66lr1", {
+  videoFoam: true
+});
+</script>
+<hr>
+
 ## Create your first map
 
 Log into your Orbitist account time and click 'Make my first map!'
